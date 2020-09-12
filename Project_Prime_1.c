@@ -340,8 +340,8 @@ static inline void phi(void)
 						{
 							++ca;
 						}
-						t=clock()-t;
 					}
+					t=clock()-t;
 					#ifdef _WIN32
 						system("color e5");
 					#endif
