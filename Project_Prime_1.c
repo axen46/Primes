@@ -224,9 +224,10 @@ static inline void nthp(void)
     					if(!sieve[p])
     					{
     						++count;
-    						t=clock()-t;
+    						
     					}
     				}
+				t=clock()-t;
     				#ifdef _WIN32
 						system("color 5f");
 					#endif
