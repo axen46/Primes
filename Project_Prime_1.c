@@ -224,7 +224,6 @@ static inline void nthp(void)
     					if(!sieve[p])
     					{
     						++count;
-    						
     					}
     				}
 				t=clock()-t;
