@@ -6,7 +6,7 @@
 \Author-- Apratim Sarkar                                                \
 \Planning and designing -- Apratim Sarkar                               \
 =========================================================================*/
-
+//For linux and windows os.
 //library files
 #include<stdio.h>
 #include<math.h>
