@@ -10,19 +10,19 @@ inline bool prime(unsigned long long n)
     bool k=1;
     if(n<=1)k=0;
     else if(n==2||n==3)k=1;
-	else if(n%6==1||n%6==5)
+    else if(n%6==1||n%6==5)
+    {
+ 	for(i=5;i<=b;i=i+2)
 	{
-	    for(i=5;i<=b;i=i+2)
+	    if(n%i==0)
 	    {
-	        if(n%i==0)
-	        {
-	            k=0;
-	            break;
-	        }
+	        k=0;
+	        break;
 	    }
 	}
-	else k=0;
-	return k;
+    }
+    else k=0;
+    return k;
 }
 void main(void)
 {
